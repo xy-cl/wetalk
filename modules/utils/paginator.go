@@ -49,7 +49,7 @@ func (p *Paginator) Nums() int64 {
 }
 
 func (p *Paginator) SetNums(nums interface{}) {
-	p.nums, _ = ToInt64(nums)
+	//p.nums, _ = ToInt64(nums)
 }
 
 func (p *Paginator) Page() int {
